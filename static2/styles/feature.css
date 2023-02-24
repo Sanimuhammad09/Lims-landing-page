@@ -1,0 +1,255 @@
+* {
+  font-family: 'Inter';
+  box-sizing: border-box;
+}
+
+/* Border */
+.tm-feature-border-1 {
+  border-left: dashed #a6b4cd;
+}
+
+.tm-feature-postion-1 {
+  left: -11px;
+}
+.tm-text-decoration {
+  display: block;
+  position: absolute;
+  left: 40%;
+  width: 210px;
+  padding: 1rem;
+}
+.text-changes {
+  margin-top: 2px;
+  font-size: 18px;
+  text-align: center;
+}
+.tm-text-decoration-mweb {
+  display: block;
+  position: absolute;
+  left: 17%;
+  width: 210px;
+  padding: 1rem;
+}
+.tm-text-decoration-footer {
+  display: block;
+  position: absolute;
+  width: 210px;
+  padding: 1rem;
+}
+.tm-feature-position-2 {
+  top: 25%;
+}
+.tm-feature-position-mweb-2 {
+  top: 15%;
+}
+.tm-feature-position-3 {
+  top: 55%;
+}
+.tm-feature-position-4 {
+  top: 65%;
+}
+.text-colors {
+  color: #1da1f2;
+}
+.tm-feature-position-mweb-4 {
+  top: 60%;
+}
+.tm-feature-position-5 {
+  width: 65%;
+  top: 15%;
+  line-height: 55px;
+}
+.ml-16 {
+  margin-left: 4rem;
+}
+.tm-feature-position-mweb-5 {
+  width: 100%;
+  padding: 1px;
+  top: 15%;
+  line-height: 30px;
+}
+.tm-feature-position-mweb-6 {
+  top: 60%;
+  margin: unset;
+  text-align: center;
+}
+.tm-feature-position-6 {
+  top: 70%;
+}
+.tm-footer-img {
+  padding: 1.5rem;
+}
+/* Shadow */
+.tm-feature-shadow-1 {
+  box-shadow: 0px 4px 12px rgba(113, 161, 230, 0.1);
+}
+
+.tm-feature-shadow-2 {
+  box-shadow: 0px 2px 4px rgba(157, 182, 217, 0.2);
+  border-radius: 20px;
+  border-width: 1px;
+  border-image-source: linear-gradient(169.16deg, #EEEEEE -5.32%, rgba(238, 238, 238, 0) 100.61%);
+}
+
+/* Word spacing */
+.tm-feature-word-spacing-1 {
+  word-spacing: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #6b82ab;
+  font-family: "Lato";
+}
+
+.tm-feature-stop-scrolling {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.tm-feature-max-width {
+  margin: auto;
+  width: 90%;
+}
+
+.tm-feature-hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.tm-feature-rotate-180 {
+  transform: rotate(180deg);
+}
+
+.grecaptcha-badge {
+  visibility: hidden;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+.decoration:hover,
+.decoration:focus,
+.decoration:active {
+  color: #1da1f2;
+}
+.tm-text-decoration:hover,
+.tm-text-decoration:focus,
+.tm-text-decoration:active {
+  color: #fff;
+}
+.tm-feature-line-height-1 {
+  line-height: 55px;
+  height: 100%;
+}
+.tm-feature-line-height-mweb-1 {
+  line-height: 30px;
+  height: 100%;
+}
+.tm-mweb {
+  height: 225px;
+}
+.tm-img-float {
+  text-align: -webkit-right;
+}
+.tm-footer-content {
+  width: 50%;
+}
+.tm-feature-contact-form-submit {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.tm-feature-bg-light-gray {
+  background: #f7f9fc;
+}
+.tm-feature-benefits-numbering {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 60px;
+  opacity: 0.2;
+}
+.tm-feature-para-gray-1 {
+  color: #4D4D4D;
+}
+.tm-feature-lh-31 {
+  line-height: 31px;
+}
+.tm-feature-lh-21 {
+  line-height: 21px;
+}
+.tm-feature-width {
+  width: 22rem;
+  padding-bottom: 1.5rem;
+}
+.tm-feature-input-field {
+  font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #1f3965;
+    border-radius: 8px;
+    border: 1px solid #dbe2ea;
+    outline: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+}
+.tm-feature-input-field-2 {
+  height: 50px !important;
+  line-height: 20px;
+  padding: 10px 16px !important;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(157, 182, 217, 0.2);
+  outline: none;
+}
+.tm-feature-bottom-border-1  {
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+.tm-feature-top-border-1  {
+  border-top: 1px solid rgba(0, 0, 0, .2);
+}
+.tm-feature-lead-form-image-width {
+  width: 336px;
+}
+.tm-z-150 {
+  z-index: 150;
+}
+.tm-z-10000 {
+  z-index: 10000;
+}
+.tm-feature-cr-gray-1 {
+  color: #575757;
+}
+.tm-feature-gray-2 {
+  color: #626262;
+}
+.tm-feature-lead-form-modal-bgcr-1 {
+  background-color: #000000a6;
+}
+
+@media only screen and (min-width: 1024px) {
+  .tm-feature-max-width {
+    margin: auto;
+    width: 90%;
+    max-width: 1140px;
+  }
+  .tm-feature-postion-1 {
+    left: -15px;
+  }
+  .tm-feature-position-2 {
+    top: 25%;
+  }
+  /* Input Fields */
+  .tm-feature-input-field-2 {
+    line-height: 18px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid #dbe2ea;
+  }
+}

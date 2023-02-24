@@ -1,0 +1,190 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "inter";
+}
+
+.grecaptcha-badge {
+    visibility: hidden;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    padding: 0;
+    line-height: inherit;
+    color: inherit
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+
+/* Firefox */
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input:focus {
+    outline: none;
+}
+
+#dropdown-arrow {
+    display: none;
+}
+
+.max-h-300 {
+    max-height: 420px;
+}
+
+.tm-tfi-bg-medium-gray {
+    background: #e8f1ff;
+}
+
+.img-auto-fit {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* * {
+	box-sizing: border-box;
+	font-family: 'inter';
+	text-decoration: none;
+} */
+
+.tm-module-cr-1 {
+    color: #4d4d4d;
+}
+
+.tm-module-bgcr-1 {
+    background-color: #f9fafb;
+}
+
+.tm-module-max-width {
+    margin: auto;
+    width: 90%;
+}
+
+.tm-module-height-1 {
+    height: 250px;
+}
+
+.tm-module-bdr-1 {
+    border-bottom: 1px solid #4d4d4d;
+}
+
+.tm-module-rotate-45 {
+    transform: rotate(45deg);
+}
+
+.feature-box-shdw {
+    box-shadow: 0px 2px 4px rgba(157, 182, 217, 0.2);
+}
+
+.tm-tfi-input-field {
+    height: 50px !important;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 16px !important;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(157, 182, 217, 0.2);
+    color: black;
+    outline: none;
+    width: 100%;
+}
+
+.form-height {
+    height: auto;
+}
+
+.institute-form-field-border {
+    border: 1px solid #dedede;
+    box-shadow: none !important;
+}
+
+.h-420 {
+    height: auto;
+}
+
+.tm-tfi-button5 {
+    font-size: 16px;
+    padding: 8px 70px;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 36px;
+    background-color: #1da1f2;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 5px;
+    /* box-shadow: ; */
+    /* height: 36px; */
+}
+
+.tm-tfi-h5 {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 600;
+    color: #1f3965;
+}
+
+@media only screen and (min-width: 1024px) {
+    .max-h-300 {
+        max-height: 420px;
+    }
+    .tm-tfi-button5 {
+        font-size: 16px;
+        padding: 8px 24px;
+    }
+    .h-420 {
+        height: 420px;
+    }
+    /* Input Fields */
+    .tm-tfi-input-field {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 400;
+        padding: 16px;
+    }
+    .tm-module-max-width {
+        margin: auto;
+        width: 90%;
+        max-width: 1080px;
+    }
+    .tm-module-height-1 {
+        height: 450px;
+    }
+}

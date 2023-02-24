@@ -1,0 +1,109 @@
+.main-footer {
+    width: 100%;
+    border-top: 4px solid #1da1f2;
+}
+
+.main-footer .main-footer-inner {
+    width: 80%;
+    max-width: 1144px;
+    margin: 0 auto;
+}
+
+.main-footer .main-footer-inner .footer-copyright {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #374c59;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-footer .main-footer-inner .footer-item-container-outer {
+    /* padding: 0 0 40px 0; */
+}
+
+.main-footer .main-footer-inner .footer-item-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.main-footer
+    .main-footer-inner
+    .footer-item-container
+    .footer-text-item-heading {
+    color: #062030;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.main-footer
+    .main-footer-inner
+    .footer-item-container
+    .footer-text-item-normal {
+    font-size: 15px;
+    color: #374c59;
+    text-decoration: none;
+    margin: 5px 0px;
+}
+
+.main-footer
+    .main-footer-inner
+    .footer-item-container
+    .footer-item-teachmint-logo {
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.main-footer .main-footer-inner .footer-item-container .footer-social-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #374c59;
+}
+
+.main-footer
+    .main-footer-inner
+    .footer-item-container
+    .footer-social-btn
+    .footer-social-btn-icon {
+    width: 30px;
+}
+
+.main-footer
+    .main-footer-inner
+    .footer-item-container
+    .footer-social-btn
+    .footer-social-btn-txt {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.main-footer .main-footer-inner .footer-item-container .store-icon-con {
+    width: 100%;
+    margin: 16px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.main-footer .main-footer-inner .footer-item-container .store-icon-con a {
+    width: 60px;
+    text-decoration: none;
+}
+
+.main-footer .main-footer-inner .footer-item-container .store-icon-con img {
+    width: 60px;
+}
+
+@media only screen and (min-width: 600px) {
+    .main-footer .main-footer-inner .footer-item-container-outer {
+        display: grid;
+        grid-column-gap: 1%;
+        grid-template-columns: 24% 15% 24% 14%;
+        padding: 50px 0 10px 0;
+        justify-content: space-between;
+    }
+}
